@@ -1,5 +1,4 @@
-* Folder: `07-ORM-To-Sequelize/Unsolved`
-​
+Used in class acitivity to complete homwework assignment.​
 * INSTRUCTIONS:
 ​
   1) Create a new local MYSQL database called 'todolist', but don't create any tables.
@@ -29,16 +28,14 @@
   11) In your terminal, run `npm run watch`. Check MYSQL Workbench to see if a Todos table was created.  If so, you were successful. If not, check your terminal for any errors.
    
   12)  Now let's complete the `routes/api-routes.js` file to make the app work.
-  13)  If you have all routes done, (GET, PUT, POST, DELETE), add validation to your todo model so that:
+
+// code below was not able to be completed. 
+  <!-- 13)  If you have all routes done, (GET, PUT, POST, DELETE), add validation to your todo model so that:
     1) text must be min 1 char long, max 140
     2) text cannot be null
-    3) complete defaults to false if not passed
+    3) complete defaults to false if not passed -->
 ​
-  14) Modify your api routes to send an error msg back to client if validation fails
   
-  15) Modify client js and HTML to display validation msg error to user.
-Collapse
-
 
 
 
