@@ -1,0 +1,38 @@
+body {
+  background: goldenrod;
+}
+h1 {
+  text-align: center;
+}
+
+.todo-list {
+  margin: 0 auto;
+  margin-top: 75px;
+}
+
+input.new-item:focus {
+  outline: none;
+}
+
+.list-group-item > button.delete,
+.list-group-item > button.complete {
+  float: right;
+  height: 25px;
+  margin-left: 5px;
+}
+
+.edit {
+  width: 100%;
+}
+.form {
+  width: 85%;
+text-align: center;}
+#stburger {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+  
+}
