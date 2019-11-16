@@ -41,7 +41,7 @@ $(document).ready(function() {
     const id = $(this).data('id');
     $.ajax({
       method: 'DELETE',
-      url: '/api/todos/' + id,
+      url: "/api/todos/" + id,
     }).then(getTodos);
   }
 
@@ -78,7 +78,7 @@ $(document).ready(function() {
   function updateTodo(todo) {
     $.ajax({
       method: 'PUT',
-      url: '/api/todos',
+      url: "/api/todos",
       data: todo,
     }).then(getTodos);
   }
